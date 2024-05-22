@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFF RESTO Login</title>
+    <link rel="icon" type="image/png" href="pictures/presets/burger_icon.png"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body id="Log-in">
+<!--login-->    
+    <div class="log-logo">
+        <h1 onclick="refresh()"><div class="logo-11">BFF</div><div class="logo-12">RESTO</div></h1>
+        </div>
+    </div>
+    <div class="form-wrapper">
+        <h2>Login to BFF RESTO</h2>
+        <div class="notif-message">
+            <p>Complete the form to continue</p>
+        </div>
+        <div class="form-control">
+            <label>Email or Username</label>
+            <input id="email" type="text" required></input>
+        </div>
+        <div class="form-control">
+            <label>Password</label>
+            <input id="pass" type="password" required></input>
+        </div>
+        <input type="button" onclick="login()" value="Sign In"></input>
+    </div>
+</body>
+</html>
