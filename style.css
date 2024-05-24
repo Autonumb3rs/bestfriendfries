@@ -484,8 +484,7 @@ section {
 }
 
 .hf-description button:hover {
-    background: #71911f;
-    color: #fff;
+    background: #fff;
     transition: 0.3s;
 }
 
@@ -627,7 +626,6 @@ footer h1 {
 .footer-container a {
     display: flex;
     font-size: 20px;
-    font-weight: 600;
     margin: 10px 0 1px;
     cursor: pointer;
     text-decoration: none;
